@@ -1,0 +1,30 @@
+POST  http://localhost:3000/users
+Content-Type: application/json
+
+
+{
+    "author": "Lourenç Cardoso",
+        "title": "FrontEnd",
+        "description": "React + TypeScript + TailwindCss, Saas, MatirialUI, ChachkraUI, GraphycSQL",
+        "duration": "500"
+}
+
+
+
+
+###
+
+GET  http://localhost:3000/users
+
+
+###
+
+PUT http://localhost:3000/users/3e9969aa-9df7-46d9-9405-c14e3f635dad
+Content-Type: application/json
+
+{
+    "author": "Romeu  Tomás Cajamba",
+        "title": "BackEnd",
+        "description": "Fastify + TypeScript + Prisma + PostGres, MYSQL",
+        "duration": "300"
+}
